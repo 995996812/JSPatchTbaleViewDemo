@@ -1,0 +1,22 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'JS写的tableView' do
+  # Uncomment this line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+pod 'JSPatch'
+pod 'SDWebImage'
+pod 'Masonry'
+pod 'AFNetworking'
+  target 'JS写的tableViewTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'JS写的tableViewUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

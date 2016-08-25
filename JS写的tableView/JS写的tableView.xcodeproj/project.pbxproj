@@ -1,0 +1,711 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23FDA5D7FDA21B3FA4691B60 /* libPods-JS写的tableViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 556625EA8C90D35022EEB3DC /* libPods-JS写的tableViewTests.a */; };
+		2E2366EA1D67050C00647307 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2366E91D67050C00647307 /* main.m */; };
+		2E2366ED1D67050C00647307 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2366EC1D67050C00647307 /* AppDelegate.m */; };
+		2E2366F01D67050C00647307 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2366EF1D67050C00647307 /* ViewController.m */; };
+		2E2366F31D67050C00647307 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E2366F11D67050C00647307 /* Main.storyboard */; };
+		2E2366F51D67050C00647307 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E2366F41D67050C00647307 /* Assets.xcassets */; };
+		2E2366F81D67050C00647307 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E2366F61D67050C00647307 /* LaunchScreen.storyboard */; };
+		2E2367031D67050C00647307 /* JS__tableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2367021D67050C00647307 /* JS__tableViewTests.m */; };
+		2E23670E1D67050C00647307 /* JS__tableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E23670D1D67050C00647307 /* JS__tableViewUITests.m */; };
+		2ECEC8401D6AD4F8001AE66A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ECEC83F1D6AD4F8001AE66A /* SecondViewController.m */; };
+		2ECEC84B1D6AE044001AE66A /* src in Resources */ = {isa = PBXBuildFile; fileRef = 2ECEC84A1D6AE044001AE66A /* src */; };
+		503A0B2D8732F7DC5EF21888 /* libPods-JS写的tableView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3F109D731A9EF2702A1A5AC /* libPods-JS写的tableView.a */; };
+		C6329D67050E91B4EFEBC0A3 /* libPods-JS写的tableViewUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9255F4C5F10A0A84D1195548 /* libPods-JS写的tableViewUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E2366FF1D67050C00647307 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E2366DD1D67050C00647307 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E2366E41D67050C00647307;
+			remoteInfo = "JS写的tableView";
+		};
+		2E23670A1D67050C00647307 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E2366DD1D67050C00647307 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E2366E41D67050C00647307;
+			remoteInfo = "JS写的tableView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E2366E51D67050C00647307 /* JS写的tableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JS写的tableView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E2366E91D67050C00647307 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E2366EB1D67050C00647307 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2E2366EC1D67050C00647307 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2E2366EE1D67050C00647307 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2E2366EF1D67050C00647307 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2E2366F21D67050C00647307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E2366F41D67050C00647307 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E2366F71D67050C00647307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E2366F91D67050C00647307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E2366FE1D67050C00647307 /* JS写的tableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JS写的tableViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E2367021D67050C00647307 /* JS__tableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JS__tableViewTests.m; sourceTree = "<group>"; };
+		2E2367041D67050C00647307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E2367091D67050C00647307 /* JS写的tableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JS写的tableViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E23670D1D67050C00647307 /* JS__tableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JS__tableViewUITests.m; sourceTree = "<group>"; };
+		2E23670F1D67050C00647307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2ECEC83E1D6AD4F8001AE66A /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		2ECEC83F1D6AD4F8001AE66A /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		2ECEC84A1D6AE044001AE66A /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
+		556625EA8C90D35022EEB3DC /* libPods-JS写的tableViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JS写的tableViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9255F4C5F10A0A84D1195548 /* libPods-JS写的tableViewUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JS写的tableViewUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BE8C07E12A735683A5F1EEB /* Pods-JS写的tableViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JS写的tableViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JS写的tableViewUITests/Pods-JS写的tableViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A96A079772F1B8768C891443 /* Pods-JS写的tableViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JS写的tableViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JS写的tableViewUITests/Pods-JS写的tableViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AD87AB0F5C8A8D55300DDF7F /* Pods-JS写的tableViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JS写的tableViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JS写的tableViewTests/Pods-JS写的tableViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C3F109D731A9EF2702A1A5AC /* libPods-JS写的tableView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JS写的tableView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D82C92E5ABE5218AAFFBA361 /* Pods-JS写的tableViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JS写的tableViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JS写的tableViewTests/Pods-JS写的tableViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		EC306472BB8F2AFC19163FE7 /* Pods-JS写的tableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JS写的tableView.release.xcconfig"; path = "Pods/Target Support Files/Pods-JS写的tableView/Pods-JS写的tableView.release.xcconfig"; sourceTree = "<group>"; };
+		EF979F50C80BBE1092E46C62 /* Pods-JS写的tableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JS写的tableView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JS写的tableView/Pods-JS写的tableView.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E2366E21D67050C00647307 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				503A0B2D8732F7DC5EF21888 /* libPods-JS写的tableView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E2366FB1D67050C00647307 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23FDA5D7FDA21B3FA4691B60 /* libPods-JS写的tableViewTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E2367061D67050C00647307 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6329D67050E91B4EFEBC0A3 /* libPods-JS写的tableViewUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E2366DC1D67050C00647307 = {
+			isa = PBXGroup;
+			children = (
+				2E2366E71D67050C00647307 /* JS写的tableView */,
+				2E2367011D67050C00647307 /* JS写的tableViewTests */,
+				2E23670C1D67050C00647307 /* JS写的tableViewUITests */,
+				2E2366E61D67050C00647307 /* Products */,
+				66069C1C3A72B1A6C9E4F90D /* Pods */,
+				5D351C90A1B8551CF880718C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2E2366E61D67050C00647307 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E2366E51D67050C00647307 /* JS写的tableView.app */,
+				2E2366FE1D67050C00647307 /* JS写的tableViewTests.xctest */,
+				2E2367091D67050C00647307 /* JS写的tableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E2366E71D67050C00647307 /* JS写的tableView */ = {
+			isa = PBXGroup;
+			children = (
+				2ECEC84A1D6AE044001AE66A /* src */,
+				2E2366EB1D67050C00647307 /* AppDelegate.h */,
+				2E2366EC1D67050C00647307 /* AppDelegate.m */,
+				2E2366EE1D67050C00647307 /* ViewController.h */,
+				2E2366EF1D67050C00647307 /* ViewController.m */,
+				2ECEC83E1D6AD4F8001AE66A /* SecondViewController.h */,
+				2ECEC83F1D6AD4F8001AE66A /* SecondViewController.m */,
+				2E2366F11D67050C00647307 /* Main.storyboard */,
+				2E2366F41D67050C00647307 /* Assets.xcassets */,
+				2E2366F61D67050C00647307 /* LaunchScreen.storyboard */,
+				2E2366F91D67050C00647307 /* Info.plist */,
+				2E2366E81D67050C00647307 /* Supporting Files */,
+			);
+			path = "JS写的tableView";
+			sourceTree = "<group>";
+		};
+		2E2366E81D67050C00647307 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E2366E91D67050C00647307 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2E2367011D67050C00647307 /* JS写的tableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E2367021D67050C00647307 /* JS__tableViewTests.m */,
+				2E2367041D67050C00647307 /* Info.plist */,
+			);
+			path = "JS写的tableViewTests";
+			sourceTree = "<group>";
+		};
+		2E23670C1D67050C00647307 /* JS写的tableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2E23670D1D67050C00647307 /* JS__tableViewUITests.m */,
+				2E23670F1D67050C00647307 /* Info.plist */,
+			);
+			path = "JS写的tableViewUITests";
+			sourceTree = "<group>";
+		};
+		5D351C90A1B8551CF880718C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3F109D731A9EF2702A1A5AC /* libPods-JS写的tableView.a */,
+				556625EA8C90D35022EEB3DC /* libPods-JS写的tableViewTests.a */,
+				9255F4C5F10A0A84D1195548 /* libPods-JS写的tableViewUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66069C1C3A72B1A6C9E4F90D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF979F50C80BBE1092E46C62 /* Pods-JS写的tableView.debug.xcconfig */,
+				EC306472BB8F2AFC19163FE7 /* Pods-JS写的tableView.release.xcconfig */,
+				AD87AB0F5C8A8D55300DDF7F /* Pods-JS写的tableViewTests.debug.xcconfig */,
+				D82C92E5ABE5218AAFFBA361 /* Pods-JS写的tableViewTests.release.xcconfig */,
+				A96A079772F1B8768C891443 /* Pods-JS写的tableViewUITests.debug.xcconfig */,
+				9BE8C07E12A735683A5F1EEB /* Pods-JS写的tableViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E2366E41D67050C00647307 /* JS写的tableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E2367121D67050C00647307 /* Build configuration list for PBXNativeTarget "JS写的tableView" */;
+			buildPhases = (
+				F966A6324BE0C4FB2A30E4BF /* [CP] Check Pods Manifest.lock */,
+				2E2366E11D67050C00647307 /* Sources */,
+				2E2366E21D67050C00647307 /* Frameworks */,
+				2E2366E31D67050C00647307 /* Resources */,
+				813B554179E062B111B244B6 /* [CP] Embed Pods Frameworks */,
+				12D3DD88356AD5180F7D239C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JS写的tableView";
+			productName = "JS写的tableView";
+			productReference = 2E2366E51D67050C00647307 /* JS写的tableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E2366FD1D67050C00647307 /* JS写的tableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E2367151D67050C00647307 /* Build configuration list for PBXNativeTarget "JS写的tableViewTests" */;
+			buildPhases = (
+				1A0C2B320D0B80809642D209 /* [CP] Check Pods Manifest.lock */,
+				2E2366FA1D67050C00647307 /* Sources */,
+				2E2366FB1D67050C00647307 /* Frameworks */,
+				2E2366FC1D67050C00647307 /* Resources */,
+				218A6B8741257752B2854F15 /* [CP] Embed Pods Frameworks */,
+				9727274BC5464DE30028134B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E2367001D67050C00647307 /* PBXTargetDependency */,
+			);
+			name = "JS写的tableViewTests";
+			productName = "JS写的tableViewTests";
+			productReference = 2E2366FE1D67050C00647307 /* JS写的tableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2E2367081D67050C00647307 /* JS写的tableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E2367181D67050C00647307 /* Build configuration list for PBXNativeTarget "JS写的tableViewUITests" */;
+			buildPhases = (
+				08977C2D9802008A912ABBFD /* [CP] Check Pods Manifest.lock */,
+				2E2367051D67050C00647307 /* Sources */,
+				2E2367061D67050C00647307 /* Frameworks */,
+				2E2367071D67050C00647307 /* Resources */,
+				583C50979C84F7B095429A94 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E23670B1D67050C00647307 /* PBXTargetDependency */,
+			);
+			name = "JS写的tableViewUITests";
+			productName = "JS写的tableViewUITests";
+			productReference = 2E2367091D67050C00647307 /* JS写的tableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E2366DD1D67050C00647307 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = condentast;
+				TargetAttributes = {
+					2E2366E41D67050C00647307 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					2E2366FD1D67050C00647307 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2E2366E41D67050C00647307;
+					};
+					2E2367081D67050C00647307 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2E2366E41D67050C00647307;
+					};
+				};
+			};
+			buildConfigurationList = 2E2366E01D67050C00647307 /* Build configuration list for PBXProject "JS写的tableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E2366DC1D67050C00647307;
+			productRefGroup = 2E2366E61D67050C00647307 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E2366E41D67050C00647307 /* JS写的tableView */,
+				2E2366FD1D67050C00647307 /* JS写的tableViewTests */,
+				2E2367081D67050C00647307 /* JS写的tableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E2366E31D67050C00647307 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E2366F81D67050C00647307 /* LaunchScreen.storyboard in Resources */,
+				2E2366F51D67050C00647307 /* Assets.xcassets in Resources */,
+				2ECEC84B1D6AE044001AE66A /* src in Resources */,
+				2E2366F31D67050C00647307 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E2366FC1D67050C00647307 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E2367071D67050C00647307 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08977C2D9802008A912ABBFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		12D3DD88356AD5180F7D239C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JS写的tableView/Pods-JS写的tableView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A0C2B320D0B80809642D209 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		218A6B8741257752B2854F15 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JS写的tableViewTests/Pods-JS写的tableViewTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		583C50979C84F7B095429A94 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JS写的tableViewUITests/Pods-JS写的tableViewUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		813B554179E062B111B244B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JS写的tableView/Pods-JS写的tableView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9727274BC5464DE30028134B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JS写的tableViewTests/Pods-JS写的tableViewTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F966A6324BE0C4FB2A30E4BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E2366E11D67050C00647307 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ECEC8401D6AD4F8001AE66A /* SecondViewController.m in Sources */,
+				2E2366F01D67050C00647307 /* ViewController.m in Sources */,
+				2E2366ED1D67050C00647307 /* AppDelegate.m in Sources */,
+				2E2366EA1D67050C00647307 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E2366FA1D67050C00647307 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E2367031D67050C00647307 /* JS__tableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E2367051D67050C00647307 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E23670E1D67050C00647307 /* JS__tableViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E2367001D67050C00647307 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E2366E41D67050C00647307 /* JS写的tableView */;
+			targetProxy = 2E2366FF1D67050C00647307 /* PBXContainerItemProxy */;
+		};
+		2E23670B1D67050C00647307 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E2366E41D67050C00647307 /* JS写的tableView */;
+			targetProxy = 2E23670A1D67050C00647307 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2E2366F11D67050C00647307 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E2366F21D67050C00647307 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2E2366F61D67050C00647307 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E2366F71D67050C00647307 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E2367101D67050C00647307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E2367111D67050C00647307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E2367131D67050C00647307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF979F50C80BBE1092E46C62 /* Pods-JS写的tableView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "JS写的tableView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.condentast.JS--tableView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2E2367141D67050C00647307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC306472BB8F2AFC19163FE7 /* Pods-JS写的tableView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "JS写的tableView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.condentast.JS--tableView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2E2367161D67050C00647307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD87AB0F5C8A8D55300DDF7F /* Pods-JS写的tableViewTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "JS写的tableViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.condentast.JS--tableViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JS写的tableView.app/JS写的tableView";
+			};
+			name = Debug;
+		};
+		2E2367171D67050C00647307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D82C92E5ABE5218AAFFBA361 /* Pods-JS写的tableViewTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "JS写的tableViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.condentast.JS--tableViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JS写的tableView.app/JS写的tableView";
+			};
+			name = Release;
+		};
+		2E2367191D67050C00647307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A96A079772F1B8768C891443 /* Pods-JS写的tableViewUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "JS写的tableViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.condentast.JS--tableViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "JS写的tableView";
+			};
+			name = Debug;
+		};
+		2E23671A1D67050C00647307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BE8C07E12A735683A5F1EEB /* Pods-JS写的tableViewUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "JS写的tableViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.condentast.JS--tableViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "JS写的tableView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E2366E01D67050C00647307 /* Build configuration list for PBXProject "JS写的tableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E2367101D67050C00647307 /* Debug */,
+				2E2367111D67050C00647307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E2367121D67050C00647307 /* Build configuration list for PBXNativeTarget "JS写的tableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E2367131D67050C00647307 /* Debug */,
+				2E2367141D67050C00647307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E2367151D67050C00647307 /* Build configuration list for PBXNativeTarget "JS写的tableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E2367161D67050C00647307 /* Debug */,
+				2E2367171D67050C00647307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E2367181D67050C00647307 /* Build configuration list for PBXNativeTarget "JS写的tableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E2367191D67050C00647307 /* Debug */,
+				2E23671A1D67050C00647307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E2366DD1D67050C00647307 /* Project object */;
+}
